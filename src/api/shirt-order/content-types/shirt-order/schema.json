@@ -12,13 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "order": {
-      "type": "json"
-    },
     "customer": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::customer.customer"
+    },
+    "orderLines": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::order-line.order-line"
     }
   }
 }

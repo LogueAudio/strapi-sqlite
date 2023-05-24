@@ -20,7 +20,6 @@ module.exports = {
                                 "postalCode": result.postalCode,
                                 "city": result.city,
                                 "phoneNumber": result.phoneNumber,
-                                "subscribed": result.subscribed
                             }
                         }
                     ],
